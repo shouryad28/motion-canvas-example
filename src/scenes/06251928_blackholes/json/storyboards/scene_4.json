@@ -1,0 +1,547 @@
+{
+  "title": "Anatomy of a Black Hole",
+  "duration": 47.0,
+  "design_scheme": [
+    {
+      "property": "background_color",
+      "value": "#050623"
+    },
+    {
+      "property": "primary_color",
+      "value": "#F8E81C"
+    },
+    {
+      "property": "secondary_color",
+      "value": "#11B5E4"
+    },
+    {
+      "property": "accent_color",
+      "value": "#FF5370"
+    },
+    {
+      "property": "text_color",
+      "value": "#FFFFFF"
+    }
+  ],
+  "visual_elements": [
+    {
+      "element_type": "shape",
+      "content": "Black circular outline, large, hinting at a black hole and its boundary",
+      "position": "center",
+      "style": [
+        {
+          "property": "radius",
+          "value": 220
+        },
+        {
+          "property": "stroke",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "strokeWidth",
+          "value": 8
+        },
+        {
+          "property": "fill",
+          "value": "#070822"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 0.3,
+      "end_time": 44.0
+    },
+    {
+      "element_type": "shape",
+      "content": "Bright white point at the center (singularity)",
+      "position": "center",
+      "style": [
+        {
+          "property": "radius",
+          "value": 10
+        },
+        {
+          "property": "fill",
+          "value": "#FFFFFF"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 6.5,
+      "end_time": 44.0
+    },
+    {
+      "element_type": "text",
+      "content": "Singularity",
+      "position": "center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 26
+        },
+        {
+          "property": "fill",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        }
+      ],
+      "start_time": 8.3,
+      "end_time": 15.5
+    },
+    {
+      "element_type": "shape",
+      "content": "Glowing yellow ring: the event horizon",
+      "position": "center",
+      "style": [
+        {
+          "property": "radius",
+          "value": 160
+        },
+        {
+          "property": "stroke",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "strokeWidth",
+          "value": 12
+        },
+        {
+          "property": "fill",
+          "value": "none"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 14.8,
+      "end_time": 44.0
+    },
+    {
+      "element_type": "text",
+      "content": "Event Horizon",
+      "position": "bottom-center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 24
+        },
+        {
+          "property": "fill",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        }
+      ],
+      "start_time": 16.0,
+      "end_time": 28.5
+    },
+    {
+      "element_type": "shape",
+      "content": "Dashed circle marking the Schwarzschild radius",
+      "position": "center",
+      "style": [
+        {
+          "property": "radius",
+          "value": 175
+        },
+        {
+          "property": "stroke",
+          "value": "#11B5E4"
+        },
+        {
+          "property": "strokeWidth",
+          "value": 3
+        },
+        {
+          "property": "lineDash",
+          "value": "10,8"
+        },
+        {
+          "property": "fill",
+          "value": "none"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 25.5,
+      "end_time": 35.5
+    },
+    {
+      "element_type": "text",
+      "content": "Schwarzschild Radius",
+      "position": "top-center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 22
+        },
+        {
+          "property": "fill",
+          "value": "#11B5E4"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        }
+      ],
+      "start_time": 27.3,
+      "end_time": 35.5
+    },
+    {
+      "element_type": "shape",
+      "content": "Glowing, swirling accretion disk (thin disk with heat gradients, animated)",
+      "position": "center",
+      "style": [
+        {
+          "property": "width",
+          "value": 400
+        },
+        {
+          "property": "height",
+          "value": 30
+        },
+        {
+          "property": "fill",
+          "value": "linear-gradient(90deg, #FF5370 0%, #F8E81C 50%, #11B5E4 100%)"
+        },
+        {
+          "property": "blur",
+          "value": 6
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 34.8,
+      "end_time": 44.0
+    },
+    {
+      "element_type": "text",
+      "content": "Accretion Disk",
+      "position": "center-top",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 22
+        },
+        {
+          "property": "fill",
+          "value": "#FF5370"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        }
+      ],
+      "start_time": 35.4,
+      "end_time": 44.0
+    },
+    {
+      "element_type": "text",
+      "content": "Extreme Physics",
+      "position": "bottom-right",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 28
+        },
+        {
+          "property": "fill",
+          "value": "#FF5370"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "shadowColor",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "shadowBlur",
+          "value": 20
+        }
+      ],
+      "start_time": 44.1,
+      "end_time": 46.5
+    }
+  ],
+  "animations": [
+    {
+      "target_element": 0,
+      "description": "fade in the main black hole outline",
+      "start_time": 0.3,
+      "duration": 1.0,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 1,
+      "description": "fade in singularity point",
+      "start_time": 6.5,
+      "duration": 0.8,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 2,
+      "description": "fade in and pulse the 'Singularity' label for emphasis",
+      "start_time": 8.3,
+      "duration": 0.5,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 2,
+      "description": "grow text slightly for the asterisk emphasis on 'singularity'",
+      "start_time": 8.3,
+      "duration": 0.24,
+      "property": "fontSize",
+      "start_value": 26,
+      "end_value": 32
+    },
+    {
+      "target_element": 2,
+      "description": "return font size to normal after emphasis",
+      "start_time": 8.54,
+      "duration": 0.36,
+      "property": "fontSize",
+      "start_value": 32,
+      "end_value": 26
+    },
+    {
+      "target_element": 1,
+      "description": "pulse spread, then contract to show 'infinite density'",
+      "start_time": 10.14,
+      "duration": 0.7,
+      "property": "radius",
+      "start_value": 10,
+      "end_value": 18
+    },
+    {
+      "target_element": 1,
+      "description": "contract point to near zero size after 'infinite density' to illustrate collapse",
+      "start_time": 10.84,
+      "duration": 0.8,
+      "property": "radius",
+      "start_value": 18,
+      "end_value": 2
+    },
+    {
+      "target_element": 3,
+      "description": "fade in event horizon ring",
+      "start_time": 14.8,
+      "duration": 0.8,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 4,
+      "description": "fade in and slide up 'Event Horizon' label for asterisk emphasis",
+      "start_time": 16.0,
+      "duration": 0.5,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 4,
+      "description": "grow text for asterisk emphasis on 'event horizon'",
+      "start_time": 16.0,
+      "duration": 0.28,
+      "property": "fontSize",
+      "start_value": 24,
+      "end_value": 30
+    },
+    {
+      "target_element": 4,
+      "description": "return font size to normal",
+      "start_time": 16.28,
+      "duration": 0.5,
+      "property": "fontSize",
+      "start_value": 30,
+      "end_value": 24
+    },
+    {
+      "target_element": 3,
+      "description": "pulsate glowing ring slightly at 'point of no return'",
+      "start_time": 18.2,
+      "duration": 1.2,
+      "property": "strokeWidth",
+      "start_value": 12,
+      "end_value": 18
+    },
+    {
+      "target_element": 3,
+      "description": "return glow to normal",
+      "start_time": 19.4,
+      "duration": 0.5,
+      "property": "strokeWidth",
+      "start_value": 18,
+      "end_value": 12
+    },
+    {
+      "target_element": 3,
+      "description": "flash or ripple effect as light bounces on event horizon when 'not even light can escape'",
+      "start_time": 22.1,
+      "duration": 0.6,
+      "property": "stroke",
+      "start_value": "#F8E81C",
+      "end_value": "#FFFFFF"
+    },
+    {
+      "target_element": 5,
+      "description": "dashed circle for Schwarzschild radius fades in and gently expands",
+      "start_time": 25.5,
+      "duration": 1.0,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 5,
+      "description": "radius grows subtly to emphasize dependence on mass",
+      "start_time": 26.14,
+      "duration": 1.2,
+      "property": "radius",
+      "start_value": 175,
+      "end_value": 210
+    },
+    {
+      "target_element": 6,
+      "description": "fade in 'Schwarzschild Radius' label at the top",
+      "start_time": 27.3,
+      "duration": 0.7,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 6,
+      "description": "grow then shrink text for asterisk emphasis",
+      "start_time": 27.3,
+      "duration": 0.22,
+      "property": "fontSize",
+      "start_value": 22,
+      "end_value": 28
+    },
+    {
+      "target_element": 6,
+      "description": "shrink font size back",
+      "start_time": 27.52,
+      "duration": 0.6,
+      "property": "fontSize",
+      "start_value": 28,
+      "end_value": 22
+    },
+    {
+      "target_element": 7,
+      "description": "fade in swirling accretion disk",
+      "start_time": 34.8,
+      "duration": 1.0,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 7,
+      "description": "animate slow rotation/swirl to simulate disk motion",
+      "start_time": 35.5,
+      "duration": 4.0,
+      "property": "rotation",
+      "start_value": 0,
+      "end_value": 60
+    },
+    {
+      "target_element": 8,
+      "description": "fade in 'Accretion Disk' label and grow sentence for asterisk",
+      "start_time": 35.4,
+      "duration": 0.4,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 8,
+      "description": "grow text for asterisk on 'accretion disk'",
+      "start_time": 35.4,
+      "duration": 0.2,
+      "property": "fontSize",
+      "start_value": 22,
+      "end_value": 28
+    },
+    {
+      "target_element": 8,
+      "description": "return to normal font size",
+      "start_time": 35.6,
+      "duration": 0.5,
+      "property": "fontSize",
+      "start_value": 28,
+      "end_value": 22
+    },
+    {
+      "target_element": 9,
+      "description": "fade in 'Extreme Physics' with shadow glow in the corner",
+      "start_time": 44.1,
+      "duration": 0.7,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 9,
+      "description": "pulse/shake text for asterisk emphasis on 'extreme physics'",
+      "start_time": 44.16,
+      "duration": 0.6,
+      "property": "fontSize",
+      "start_value": 28,
+      "end_value": 34
+    },
+    {
+      "target_element": 9,
+      "description": "font size returns to normal",
+      "start_time": 44.76,
+      "duration": 0.7,
+      "property": "fontSize",
+      "start_value": 34,
+      "end_value": 28
+    }
+  ]
+}

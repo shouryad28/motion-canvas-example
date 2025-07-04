@@ -1,0 +1,410 @@
+{
+  "title": "Time Dilation and Spaghettification",
+  "duration": 46.0,
+  "design_scheme": [
+    {
+      "property": "background_color",
+      "value": "#050623"
+    },
+    {
+      "property": "primary_color",
+      "value": "#F8E81C"
+    },
+    {
+      "property": "secondary_color",
+      "value": "#11B5E4"
+    },
+    {
+      "property": "accent_color",
+      "value": "#FF5370"
+    },
+    {
+      "property": "text_color",
+      "value": "#FFFFFF"
+    }
+  ],
+  "visual_elements": [
+    {
+      "element_type": "image",
+      "content": "Stylized black hole with clear event horizon, accretion disk",
+      "position": "center",
+      "style": [
+        {
+          "property": "scale",
+          "value": 1.0
+        },
+        {
+          "property": "opacity",
+          "value": 1
+        }
+      ],
+      "start_time": 0.0,
+      "end_time": 46.0
+    },
+    {
+      "element_type": "text",
+      "content": "Extreme Physics Near Black Holes",
+      "position": "top-center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 32
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "fill",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 0.18,
+      "end_time": 2.8
+    },
+    {
+      "element_type": "shape",
+      "content": "Falling astronaut silhouette",
+      "position": "top-right",
+      "style": [
+        {
+          "property": "fill",
+          "value": "#11B5E4"
+        },
+        {
+          "property": "scale",
+          "value": 0
+        }
+      ],
+      "start_time": 6.46,
+      "end_time": 29.0
+    },
+    {
+      "element_type": "shape",
+      "content": "Distorted grid around black hole representing spacetime",
+      "position": "center",
+      "style": [
+        {
+          "property": "stroke",
+          "value": "#FFFFFF"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 6.2,
+      "end_time": 39.2
+    },
+    {
+      "element_type": "text",
+      "content": "Time Dilation",
+      "position": "left-center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 24
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "fill",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 10.2,
+      "end_time": 21.5
+    },
+    {
+      "element_type": "shape",
+      "content": "Two clocks: one beside astronaut, one far from black hole (observer)",
+      "position": "split-left-right",
+      "style": [
+        {
+          "property": "scale",
+          "value": 0
+        }
+      ],
+      "start_time": 10.2,
+      "end_time": 21.5
+    },
+    {
+      "element_type": "text",
+      "content": "Spaghettification",
+      "position": "right-center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 24
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "fill",
+          "value": "#FF5370"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 22.8,
+      "end_time": 35.1
+    },
+    {
+      "element_type": "shape",
+      "content": "Astronaut being stretched into a noodle",
+      "position": "center-right",
+      "style": [
+        {
+          "property": "fill",
+          "value": "#11B5E4"
+        },
+        {
+          "property": "scaleY",
+          "value": 1.0
+        },
+        {
+          "property": "scaleX",
+          "value": 1.0
+        }
+      ],
+      "start_time": 27.1,
+      "end_time": 35.1
+    },
+    {
+      "element_type": "text",
+      "content": "Space\nTime",
+      "position": "bottom-left",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 20
+        },
+        {
+          "property": "fontWeight",
+          "value": 400
+        },
+        {
+          "property": "fill",
+          "value": "#11B5E4"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 36.4,
+      "end_time": 41.3
+    },
+    {
+      "element_type": "shape",
+      "content": "Warped grid animating more extremely (as highlight)",
+      "position": "center",
+      "style": [
+        {
+          "property": "stroke",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 36.8,
+      "end_time": 39.2
+    },
+    {
+      "element_type": "text",
+      "content": "Quantum Mechanics",
+      "position": "bottom-center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 22
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "fill",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 45.1,
+      "end_time": 46.0
+    }
+  ],
+  "animations": [
+    {
+      "target_element": 1,
+      "description": "Fade in 'Extreme Physics Near Black Holes' text for intro emphasis",
+      "start_time": 0.2,
+      "duration": 1.5,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 1,
+      "description": "Fade out title as narration moves on",
+      "start_time": 2.4,
+      "duration": 0.6,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 2,
+      "description": "Astronaut scales in as narration approaches event horizon",
+      "start_time": 6.5,
+      "duration": 1.0,
+      "property": "scale",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 3,
+      "description": "Spacetime grid fades in as we approach event horizon",
+      "start_time": 6.3,
+      "duration": 0.8,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 4,
+      "description": "Time Dilation text fade in",
+      "start_time": 10.2,
+      "duration": 0.6,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 5,
+      "description": "Clocks scale in for time dilation",
+      "start_time": 10.2,
+      "duration": 0.7,
+      "property": "scale",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 5,
+      "description": "Clock near astronaut runs slowly while far clock hands spin fast, representing differing time passage",
+      "start_time": 13.8,
+      "duration": 6.0,
+      "property": "rotation",
+      "start_value": 0,
+      "end_value": 720
+    },
+    {
+      "target_element": 4,
+      "description": "Time Dilation text fade out",
+      "start_time": 21.0,
+      "duration": 0.5,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 5,
+      "description": "Clocks scale out and disappear",
+      "start_time": 21.0,
+      "duration": 0.6,
+      "property": "scale",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 6,
+      "description": "Spaghettification text fades in as spaghettification is introduced",
+      "start_time": 22.9,
+      "duration": 0.7,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 7,
+      "description": "Astronaut begins to stretch vertically (scaleY up), compress horizontally (scaleX down)",
+      "start_time": 27.1,
+      "duration": 2.5,
+      "property": "scaleY",
+      "start_value": 1.0,
+      "end_value": 3.0
+    },
+    {
+      "target_element": 7,
+      "description": "Astronaut compress horizontally for spaghettification effect",
+      "start_time": 27.1,
+      "duration": 2.5,
+      "property": "scaleX",
+      "start_value": 1.0,
+      "end_value": 0.3
+    },
+    {
+      "target_element": 6,
+      "description": "Spaghettification text fade out",
+      "start_time": 35.0,
+      "duration": 0.5,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 8,
+      "description": "Space\\nTime text fades in as we discuss spacetime warping",
+      "start_time": 36.4,
+      "duration": 0.5,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 9,
+      "description": "Warped grid grows more distorted (strengthen warp), then fades out as segment ends",
+      "start_time": 36.8,
+      "duration": 2.3,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 9,
+      "description": "Warped grid fades out at end of scene",
+      "start_time": 39.0,
+      "duration": 0.4,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 10,
+      "description": "'Quantum Mechanics' text fades in as transition to next topic is narrated",
+      "start_time": 45.1,
+      "duration": 1.0,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    }
+  ]
+}

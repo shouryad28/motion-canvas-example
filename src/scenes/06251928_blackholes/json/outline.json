@@ -1,0 +1,71 @@
+{
+  "topic": "The Theory Behind Black Holes",
+  "scenes": [
+    {
+      "title": "What is a Black Hole?",
+      "main_concept": "Basic definition and fundamental properties of black holes",
+      "key_points": [
+        "Definition: region of spacetime with extreme gravity",
+        "Nothing can escape, not even light",
+        "Formed from collapsed massive stars",
+        "Event horizon: the point of no return"
+      ],
+      "duration": 20
+    },
+    {
+      "title": "Einstein's General Relativity",
+      "main_concept": "The theoretical foundation for black holes",
+      "key_points": [
+        "Spacetime curvature caused by mass and energy",
+        "Einstein's field equations predict black holes",
+        "Karl Schwarzschild's solution in 1916",
+        "How massive objects warp space and time"
+      ],
+      "duration": 25
+    },
+    {
+      "title": "Formation of Black Holes",
+      "main_concept": "How black holes come into existence",
+      "key_points": [
+        "Stellar evolution and massive star death",
+        "Core collapse when fusion stops",
+        "Supernova explosion",
+        "Critical mass threshold (Chandrasekhar limit)"
+      ],
+      "duration": 20
+    },
+    {
+      "title": "Anatomy of a Black Hole",
+      "main_concept": "Key components and structure",
+      "key_points": [
+        "Singularity: infinite density at the center",
+        "Event horizon: boundary of no escape",
+        "Schwarzschild radius calculation",
+        "Accretion disk: swirling matter around black hole"
+      ],
+      "duration": 25
+    },
+    {
+      "title": "Time Dilation and Spaghettification",
+      "main_concept": "Extreme physics near black holes",
+      "key_points": [
+        "Time slows down near event horizon",
+        "Gravitational time dilation effects",
+        "Tidal forces and spaghettification",
+        "Observer perspectives: falling in vs watching"
+      ],
+      "duration": 20
+    },
+    {
+      "title": "Hawking Radiation and Black Hole Evaporation",
+      "main_concept": "Quantum effects and black hole thermodynamics",
+      "key_points": [
+        "Stephen Hawking's groundbreaking discovery",
+        "Virtual particle pairs at event horizon",
+        "Black holes emit radiation and shrink",
+        "Information paradox mystery"
+      ],
+      "duration": 10
+    }
+  ]
+}

@@ -1,0 +1,755 @@
+{
+  "title": "Formation of Black Holes",
+  "duration": 42.0,
+  "design_scheme": [
+    {
+      "property": "background_color",
+      "value": "#050623"
+    },
+    {
+      "property": "primary_color",
+      "value": "#F8E81C"
+    },
+    {
+      "property": "secondary_color",
+      "value": "#11B5E4"
+    },
+    {
+      "property": "accent_color",
+      "value": "#FF5370"
+    },
+    {
+      "property": "text_color",
+      "value": "#FFFFFF"
+    }
+  ],
+  "visual_elements": [
+    {
+      "element_type": "text",
+      "content": "Einstein's Equations",
+      "position": "top-center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 28
+        },
+        {
+          "property": "fill",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 0.18,
+      "end_time": 2.7
+    },
+    {
+      "element_type": "equation",
+      "content": "G_{\\mu\\nu} = 8\\pi T_{\\mu\\nu}",
+      "position": "center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 24
+        },
+        {
+          "property": "fill",
+          "value": "#11B5E4"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 0.94,
+      "end_time": 2.7
+    },
+    {
+      "element_type": "shape",
+      "content": "Black hole icon (filled dark sphere with ring)",
+      "position": "center",
+      "style": [
+        {
+          "property": "scale",
+          "value": 0
+        },
+        {
+          "property": "fill",
+          "value": "#FF5370"
+        },
+        {
+          "property": "stroke",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "strokeWidth",
+          "value": 4
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 3.08,
+      "end_time": 6.84
+    },
+    {
+      "element_type": "text",
+      "content": "How do black holes actually form?",
+      "position": "bottom-center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 24
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "fill",
+          "value": "#FF5370"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 3.08,
+      "end_time": 6.84
+    },
+    {
+      "element_type": "image",
+      "content": "Massive star (bright blue-white sphere)",
+      "position": "center",
+      "style": [
+        {
+          "property": "scale",
+          "value": 0
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 7.04,
+      "end_time": 21.52
+    },
+    {
+      "element_type": "text",
+      "content": "Dramatic Death",
+      "position": "top-center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 26
+        },
+        {
+          "property": "fontStyle",
+          "value": "italic"
+        },
+        {
+          "property": "fill",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 7.78,
+      "end_time": 9.7
+    },
+    {
+      "element_type": "text",
+      "content": "\u2265 20x Sun's Mass",
+      "position": "left-center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 22
+        },
+        {
+          "property": "fill",
+          "value": "#11B5E4"
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 11.54,
+      "end_time": 13.96
+    },
+    {
+      "element_type": "image",
+      "content": "Sun icon (small yellow star) beside massive star",
+      "position": "left-center",
+      "style": [
+        {
+          "property": "scale",
+          "value": 0.7
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 13.22,
+      "end_time": 13.96
+    },
+    {
+      "element_type": "animation",
+      "content": "Star dims and core contracts",
+      "position": "center",
+      "style": [
+        {
+          "property": "scale",
+          "value": 1
+        },
+        {
+          "property": "opacity",
+          "value": 1
+        }
+      ],
+      "start_time": 14.52,
+      "end_time": 19.26
+    },
+    {
+      "element_type": "shape",
+      "content": "Gravity pull arrow, spiraling toward star",
+      "position": "center",
+      "style": [
+        {
+          "property": "scale",
+          "value": 1
+        },
+        {
+          "property": "fill",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 18.14,
+      "end_time": 21.52
+    },
+    {
+      "element_type": "shape",
+      "content": "Exploding star (rays, fragments)",
+      "position": "center",
+      "style": [
+        {
+          "property": "scale",
+          "value": 0
+        },
+        {
+          "property": "fill",
+          "value": "#FF5370"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 24.2,
+      "end_time": 27.66
+    },
+    {
+      "element_type": "text",
+      "content": "Supernova Explosion",
+      "position": "bottom-center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 26
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "fill",
+          "value": "#FF5370"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 25.62,
+      "end_time": 27.66
+    },
+    {
+      "element_type": "text",
+      "content": "The Chandrasekhar Limit",
+      "position": "top-center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 24
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "fill",
+          "value": "#11B5E4"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 29.2,
+      "end_time": 33.08
+    },
+    {
+      "element_type": "text",
+      "content": "\u2248 3 Solar Masses",
+      "position": "top-center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 20
+        },
+        {
+          "property": "fill",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 31.2,
+      "end_time": 32.64
+    },
+    {
+      "element_type": "animation",
+      "content": "Core shrinking rapidly",
+      "position": "center",
+      "style": [
+        {
+          "property": "scale",
+          "value": 1
+        },
+        {
+          "property": "opacity",
+          "value": 1
+        }
+      ],
+      "start_time": 33.08,
+      "end_time": 34.8
+    },
+    {
+      "element_type": "shape",
+      "content": "Grid-like spacetime warped inward to black hole",
+      "position": "center",
+      "style": [
+        {
+          "property": "scale",
+          "value": 1
+        },
+        {
+          "property": "stroke",
+          "value": "#11B5E4"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 34.88,
+      "end_time": 38.84
+    },
+    {
+      "element_type": "text",
+      "content": "Space-time Caves In",
+      "position": "top-center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 24
+        },
+        {
+          "property": "fontStyle",
+          "value": "italic"
+        },
+        {
+          "property": "fill",
+          "value": "#FFFFFF"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 35.4,
+      "end_time": 37.36
+    },
+    {
+      "element_type": "shape",
+      "content": "Perfect black circle: Black hole appears",
+      "position": "center",
+      "style": [
+        {
+          "property": "scale",
+          "value": 0
+        },
+        {
+          "property": "fill",
+          "value": "#000000"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 37.44,
+      "end_time": 38.84
+    },
+    {
+      "element_type": "text",
+      "content": "Anatomy of a Black Hole",
+      "position": "center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 30
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "fill",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 39.92,
+      "end_time": 42.0
+    }
+  ],
+  "animations": [
+    {
+      "target_element": 0,
+      "description": "fade in 'Einstein's Equations'",
+      "start_time": 0.18,
+      "duration": 0.6,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 1,
+      "description": "fade in field equations after title appears",
+      "start_time": 0.94,
+      "duration": 0.6,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 0,
+      "description": "fade out equations text title",
+      "start_time": 2.0,
+      "duration": 0.7,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 1,
+      "description": "fade out field equations",
+      "start_time": 2.0,
+      "duration": 0.7,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 2,
+      "description": "grow and fade in black hole icon for emphasis on first 'black hole' phrase",
+      "start_time": 3.08,
+      "duration": 0.44,
+      "property": "scale",
+      "start_value": 0,
+      "end_value": 1.1
+    },
+    {
+      "target_element": 2,
+      "description": "fade in black hole icon opacity",
+      "start_time": 3.08,
+      "duration": 0.44,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 3,
+      "description": "fade in 'how do black holes actually form?' question as big text for emphasis",
+      "start_time": 4.18,
+      "duration": 0.4,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 2,
+      "description": "pulse (slight scale up and down) for '*actually form*' emphasis",
+      "start_time": 4.84,
+      "duration": 0.6,
+      "property": "scale",
+      "start_value": 1.1,
+      "end_value": 1
+    },
+    {
+      "target_element": 2,
+      "description": "fade out black hole icon",
+      "start_time": 6.84,
+      "duration": 0.4,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 3,
+      "description": "fade out question text during pause",
+      "start_time": 6.84,
+      "duration": 0.4,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 4,
+      "description": "massive star fades and scales in",
+      "start_time": 7.04,
+      "duration": 1.0,
+      "property": "scale",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 4,
+      "description": "fade in massive star",
+      "start_time": 7.04,
+      "duration": 1.0,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 5,
+      "description": "fade in 'Dramatic Death' text slowly for _dramatic death_ emphasis",
+      "start_time": 8.62,
+      "duration": 0.8,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 5,
+      "description": "fade out 'Dramatic Death' text",
+      "start_time": 9.08,
+      "duration": 0.4,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 6,
+      "description": "fade in '20x sun mass' text for emphasis",
+      "start_time": 12.12,
+      "duration": 0.5,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 7,
+      "description": "fade in Sun icon beside massive star to compare mass visually",
+      "start_time": 13.22,
+      "duration": 0.4,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 8,
+      "description": "dim star and contract core: scale star down, color dims",
+      "start_time": 14.52,
+      "duration": 3.2,
+      "property": "scale",
+      "start_value": 1,
+      "end_value": 0.5
+    },
+    {
+      "target_element": 8,
+      "description": "fade in dimmed/contracting star core animation",
+      "start_time": 14.52,
+      "duration": 1.2,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 9,
+      "description": "gravity arrow spirals in, fades in for 'gravity's relentless pull'",
+      "start_time": 18.14,
+      "duration": 1.0,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 9,
+      "description": "increase stroke width to emphasize 'relentless pull'",
+      "start_time": 18.66,
+      "duration": 0.6,
+      "property": "strokeWidth",
+      "start_value": 4,
+      "end_value": 8
+    },
+    {
+      "target_element": 4,
+      "description": "fade out massive star as it explodes",
+      "start_time": 21.52,
+      "duration": 0.6,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 10,
+      "description": "supernova explosion: star grows, bursts, rays extend outward",
+      "start_time": 24.2,
+      "duration": 1.0,
+      "property": "scale",
+      "start_value": 0,
+      "end_value": 1.3
+    },
+    {
+      "target_element": 10,
+      "description": "supernova explosion: opacity ramps up at peak, then fades",
+      "start_time": 25.62,
+      "duration": 1.0,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 11,
+      "description": "fade in 'Supernova Explosion' text for emphasis",
+      "start_time": 25.62,
+      "duration": 0.7,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 11,
+      "description": "fade out 'Supernova Explosion' text",
+      "start_time": 27.66,
+      "duration": 0.4,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 12,
+      "description": "fade in 'Chandrasekhar Limit' text as core is discussed",
+      "start_time": 29.2,
+      "duration": 1.0,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 13,
+      "description": "fade in '\u2248 3 Solar Masses' text",
+      "start_time": 31.2,
+      "duration": 0.7,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 14,
+      "description": "rapid core shrinking animation to represent unstoppable collapse",
+      "start_time": 33.08,
+      "duration": 1.7,
+      "property": "scale",
+      "start_value": 1,
+      "end_value": 0.1
+    },
+    {
+      "target_element": 12,
+      "description": "fade out 'Chandrasekhar Limit' text with collapse",
+      "start_time": 33.56,
+      "duration": 0.6,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 15,
+      "description": "grid-like spacetime warps, collapses to center (space-time caves in)",
+      "start_time": 34.88,
+      "duration": 2.0,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 16,
+      "description": "fade in 'Space-time Caves In' text with grid collapse",
+      "start_time": 35.4,
+      "duration": 0.8,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 17,
+      "description": "perfect black hole appears: fade and scale in from nothing",
+      "start_time": 37.44,
+      "duration": 1.0,
+      "property": "scale",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 17,
+      "description": "perfect black hole appears: fade in",
+      "start_time": 37.44,
+      "duration": 1.0,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 18,
+      "description": "fade in 'Anatomy of a Black Hole' to lead into next segment",
+      "start_time": 39.92,
+      "duration": 1.2,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    }
+  ]
+}

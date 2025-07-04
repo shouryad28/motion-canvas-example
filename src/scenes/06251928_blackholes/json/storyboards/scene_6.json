@@ -1,0 +1,477 @@
+{
+  "title": "Hawking Radiation and Black Hole Evaporation",
+  "duration": 17.0,
+  "design_scheme": [
+    {
+      "property": "background_color",
+      "value": "#050623"
+    },
+    {
+      "property": "primary_color",
+      "value": "#F8E81C"
+    },
+    {
+      "property": "secondary_color",
+      "value": "#11B5E4"
+    },
+    {
+      "property": "accent_color",
+      "value": "#FF5370"
+    },
+    {
+      "property": "text_color",
+      "value": "#FFFFFF"
+    }
+  ],
+  "visual_elements": [
+    {
+      "element_type": "shape",
+      "content": "Simple stylized black hole: dark circle with a swirling glow (primary_color ring accent + faintly animated)",
+      "position": "center",
+      "style": [
+        {
+          "property": "radius",
+          "value": 170
+        },
+        {
+          "property": "fill",
+          "value": "#111218"
+        },
+        {
+          "property": "shadowBlur",
+          "value": 40
+        },
+        {
+          "property": "shadowColor",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "opacity",
+          "value": 1
+        }
+      ],
+      "start_time": 0.0,
+      "end_time": 17.0
+    },
+    {
+      "element_type": "text",
+      "content": "Extreme physics",
+      "position": "top-center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 30
+        },
+        {
+          "property": "fill",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 0.28,
+      "end_time": 1.6
+    },
+    {
+      "element_type": "text",
+      "content": "Stephen Hawking",
+      "position": "bottom-left",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 25
+        },
+        {
+          "property": "fill",
+          "value": "#FFFFFF"
+        },
+        {
+          "property": "fontWeight",
+          "value": 400
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 2.52,
+      "end_time": 4.5
+    },
+    {
+      "element_type": "text",
+      "content": "Black holes evaporate",
+      "position": "top-center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 30
+        },
+        {
+          "property": "fill",
+          "value": "#FF5370"
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 4.5,
+      "end_time": 7.2
+    },
+    {
+      "element_type": "shape",
+      "content": "Pair of virtual particles: one positive, one negative, appearing at event horizon; drawn as two small glowing dots, one secondary_color, one accent_color",
+      "position": "center-right edge of black hole",
+      "style": [
+        {
+          "property": "radius",
+          "value": 10
+        },
+        {
+          "property": "fill",
+          "value": "#11B5E4"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 7.22,
+      "end_time": 12.0
+    },
+    {
+      "element_type": "shape",
+      "content": "Second virtual particle: matching the first, but using accent_color",
+      "position": "center-right edge of black hole (slightly apart from other particle)",
+      "style": [
+        {
+          "property": "radius",
+          "value": 10
+        },
+        {
+          "property": "fill",
+          "value": "#FF5370"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 7.22,
+      "end_time": 12.0
+    },
+    {
+      "element_type": "arrow",
+      "content": "Arrow indicating particle emission direction (from event horizon outward, using accent_color for the arrow)",
+      "position": "just outside black hole, pointing outward",
+      "style": [
+        {
+          "property": "stroke",
+          "value": "#FF5370"
+        },
+        {
+          "property": "strokeWidth",
+          "value": 6
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 10.12,
+      "end_time": 12.0
+    },
+    {
+      "element_type": "text",
+      "content": "Hawking Radiation",
+      "position": "top-center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 28
+        },
+        {
+          "property": "fill",
+          "value": "#11B5E4"
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 10.36,
+      "end_time": 13.1
+    },
+    {
+      "element_type": "text",
+      "content": "slowly shrink",
+      "position": "center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 27
+        },
+        {
+          "property": "fill",
+          "value": "#FF5370"
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 11.2,
+      "end_time": 12.8
+    },
+    {
+      "element_type": "text",
+      "content": "Information Paradox",
+      "position": "bottom-center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 28
+        },
+        {
+          "property": "fill",
+          "value": "#FFC107"
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 13.64,
+      "end_time": 16.6
+    },
+    {
+      "element_type": "text",
+      "content": "physics' greatest mysteries",
+      "position": "bottom-center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 24
+        },
+        {
+          "property": "fill",
+          "value": "#FFFFFF"
+        },
+        {
+          "property": "fontWeight",
+          "value": 400
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 15.48,
+      "end_time": 17.0
+    }
+  ],
+  "animations": [
+    {
+      "target_element": 1,
+      "description": "fade-in 'Extreme physics', then fade-out",
+      "start_time": 0.28,
+      "duration": 0.4,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 1,
+      "description": "fade-out 'Extreme physics'",
+      "start_time": 1.2,
+      "duration": 0.3,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 2,
+      "description": "fade-in 'Stephen Hawking' at his name, fade-out as narration moves on",
+      "start_time": 2.52,
+      "duration": 0.4,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 2,
+      "description": "fade-out 'Stephen Hawking'",
+      "start_time": 4.3,
+      "duration": 0.2,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 3,
+      "description": "fade-in 'Black holes evaporate', hold, then fade-out",
+      "start_time": 4.5,
+      "duration": 0.5,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 3,
+      "description": "fade-out 'Black holes evaporate'",
+      "start_time": 7.0,
+      "duration": 0.3,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 4,
+      "description": "pop-in virtual particle (secondary_color) at event horizon",
+      "start_time": 7.22,
+      "duration": 0.3,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 5,
+      "description": "pop-in virtual particle (accent_color) at event horizon",
+      "start_time": 7.32,
+      "duration": 0.3,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 4,
+      "description": "move secondary_color particle outward to simulate escape as Hawking Radiation",
+      "start_time": 10.12,
+      "duration": 1.2,
+      "property": "position",
+      "start_value": "center-right edge of black hole",
+      "end_value": "further away to the right"
+    },
+    {
+      "target_element": 5,
+      "description": "move accent_color particle inward toward black hole (falling in)",
+      "start_time": 10.12,
+      "duration": 1.2,
+      "property": "position",
+      "start_value": "center-right edge of black hole",
+      "end_value": "center of black hole"
+    },
+    {
+      "target_element": 6,
+      "description": "draw and animate arrow showing Hawking radiation emission outward",
+      "start_time": 10.2,
+      "duration": 1.0,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 0,
+      "description": "shrink black hole size gradually to visualize 'slowly shrink'",
+      "start_time": 11.2,
+      "duration": 1.2,
+      "property": "radius",
+      "start_value": 170,
+      "end_value": 100
+    },
+    {
+      "target_element": 7,
+      "description": "fade-in 'Hawking Radiation', fade out as narration transitions",
+      "start_time": 10.36,
+      "duration": 0.6,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 7,
+      "description": "fade-out 'Hawking Radiation'",
+      "start_time": 13.0,
+      "duration": 0.3,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 8,
+      "description": "fade-in and pulse 'slowly shrink' with slight scale breathing effect for emphasis",
+      "start_time": 11.2,
+      "duration": 0.7,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 8,
+      "description": "breathing scale pulse on 'slowly shrink'",
+      "start_time": 11.2,
+      "duration": 1.0,
+      "property": "scale",
+      "start_value": 1,
+      "end_value": 1.2
+    },
+    {
+      "target_element": 8,
+      "description": "fade-out 'slowly shrink'",
+      "start_time": 12.6,
+      "duration": 0.2,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 9,
+      "description": "fade-in 'Information Paradox', fade out near the end of the narration",
+      "start_time": 13.64,
+      "duration": 0.4,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 9,
+      "description": "fade-out 'Information Paradox'",
+      "start_time": 16.4,
+      "duration": 0.2,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 10,
+      "description": "fade-in 'physics' greatest mysteries' as punchline, stays till scene end",
+      "start_time": 15.48,
+      "duration": 0.5,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    }
+  ]
+}

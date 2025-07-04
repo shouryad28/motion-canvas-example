@@ -1,0 +1,458 @@
+{
+  "title": "What is a Black Hole?",
+  "duration": 45.0,
+  "design_scheme": [
+    {
+      "property": "background_color",
+      "value": "#050623"
+    },
+    {
+      "property": "primary_color",
+      "value": "#F8E81C"
+    },
+    {
+      "property": "secondary_color",
+      "value": "#11B5E4"
+    },
+    {
+      "property": "accent_color",
+      "value": "#FF5370"
+    },
+    {
+      "property": "text_color",
+      "value": "#FFFFFF"
+    }
+  ],
+  "visual_elements": [
+    {
+      "element_type": "text",
+      "content": "What exactly is a black hole?",
+      "position": "center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 36
+        },
+        {
+          "property": "fill",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 0.75,
+      "end_time": 4.0
+    },
+    {
+      "element_type": "shape",
+      "content": "A simple stylized black disk (representing black hole), with a glowing ring (accretion disk) around it",
+      "position": "center",
+      "style": [
+        {
+          "property": "scale",
+          "value": 0
+        }
+      ],
+      "start_time": 4.12,
+      "end_time": 35.0
+    },
+    {
+      "element_type": "text",
+      "content": "incredibly extreme",
+      "position": "top",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 28
+        },
+        {
+          "property": "fill",
+          "value": "#FF5370"
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 8.98,
+      "end_time": 10.56
+    },
+    {
+      "element_type": "shape",
+      "content": "Cone of light rays aiming at black hole but curving inwards and being trapped",
+      "position": "center",
+      "style": [
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 13.86,
+      "end_time": 20.0
+    },
+    {
+      "element_type": "text",
+      "content": "Not even light itself",
+      "position": "top",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 26
+        },
+        {
+          "property": "fill",
+          "value": "#11B5E4"
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 13.86,
+      "end_time": 17.0
+    },
+    {
+      "element_type": "shape",
+      "content": "Dashed circle surrounding black hole, slowly appearing (event horizon/boundary)",
+      "position": "center",
+      "style": [
+        {
+          "property": "stroke",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "strokeWidth",
+          "value": 5
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 18.9,
+      "end_time": 37.0
+    },
+    {
+      "element_type": "text",
+      "content": "event horizon",
+      "position": "right",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 28
+        },
+        {
+          "property": "fill",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 33.2,
+      "end_time": 35.0
+    },
+    {
+      "element_type": "text",
+      "content": "point of no return",
+      "position": "bottom",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 26
+        },
+        {
+          "property": "fill",
+          "value": "#FF5370"
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 36.4,
+      "end_time": 38.8
+    },
+    {
+      "element_type": "shape",
+      "content": "Animation of a massive star shrinking into a small, super dense point (singularity) at the center",
+      "position": "left",
+      "style": [
+        {
+          "property": "scale",
+          "value": 0
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 22.0,
+      "end_time": 29.5
+    },
+    {
+      "element_type": "text",
+      "content": "massive stars",
+      "position": "left",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 26
+        },
+        {
+          "property": "fill",
+          "value": "#11B5E4"
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 23.2,
+      "end_time": 24.6
+    },
+    {
+      "element_type": "text",
+      "content": "Einstein's theory",
+      "position": "bottom",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 26
+        },
+        {
+          "property": "fill",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 43.06,
+      "end_time": 44.5
+    }
+  ],
+  "animations": [
+    {
+      "target_element": 0,
+      "description": "fade in question text, then fade out",
+      "start_time": 0.75,
+      "duration": 0.8,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 0,
+      "description": "fade out question text",
+      "start_time": 3.5,
+      "duration": 0.4,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 1,
+      "description": "scale in black hole shape and accretion disk",
+      "start_time": 4.2,
+      "duration": 0.8,
+      "property": "scale",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 1,
+      "description": "subtle accretion disk rotation (implying energy and physics)",
+      "start_time": 8.0,
+      "duration": 12.0,
+      "property": "rotation",
+      "start_value": 0,
+      "end_value": 360
+    },
+    {
+      "target_element": 2,
+      "description": "fade in 'incredibly extreme'",
+      "start_time": 8.98,
+      "duration": 0.5,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 2,
+      "description": "fade out 'incredibly extreme'",
+      "start_time": 10.1,
+      "duration": 0.4,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 3,
+      "description": "fade in light rays and bend them into black hole, then fade out",
+      "start_time": 13.9,
+      "duration": 0.7,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 3,
+      "description": "fade out bent light rays",
+      "start_time": 20.0,
+      "duration": 0.7,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 4,
+      "description": "fade in 'Not even light itself'",
+      "start_time": 13.9,
+      "duration": 0.7,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 4,
+      "description": "fade out 'Not even light itself'",
+      "start_time": 16.8,
+      "duration": 0.7,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 5,
+      "description": "draw dashed event horizon circle around black hole",
+      "start_time": 18.95,
+      "duration": 1.2,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 6,
+      "description": "fade in 'event horizon' label",
+      "start_time": 33.2,
+      "duration": 0.6,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 6,
+      "description": "fade out 'event horizon' label",
+      "start_time": 34.8,
+      "duration": 0.5,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 7,
+      "description": "fade in 'point of no return' at bottom of screen",
+      "start_time": 36.4,
+      "duration": 0.7,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 7,
+      "description": "fade out 'point of no return'",
+      "start_time": 38.0,
+      "duration": 0.4,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 8,
+      "description": "scale in star, then shrink rapidly to a small dot (singularity) at center",
+      "start_time": 22.0,
+      "duration": 2.4,
+      "property": "scale",
+      "start_value": 1,
+      "end_value": 0.08
+    },
+    {
+      "target_element": 8,
+      "description": "fade out shrinking star",
+      "start_time": 27.0,
+      "duration": 0.8,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 9,
+      "description": "fade in 'massive stars'",
+      "start_time": 23.2,
+      "duration": 0.5,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 9,
+      "description": "fade out 'massive stars'",
+      "start_time": 24.5,
+      "duration": 0.4,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 10,
+      "description": "fade in 'Einstein's theory'",
+      "start_time": 43.1,
+      "duration": 0.6,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 10,
+      "description": "fade out 'Einstein's theory'",
+      "start_time": 44.3,
+      "duration": 0.6,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    }
+  ]
+}

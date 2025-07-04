@@ -1,0 +1,508 @@
+{
+  "title": "Einstein's General Relativity",
+  "duration": 65.0,
+  "design_scheme": [
+    {
+      "property": "background_color",
+      "value": "#050623"
+    },
+    {
+      "property": "primary_color",
+      "value": "#F8E81C"
+    },
+    {
+      "property": "secondary_color",
+      "value": "#11B5E4"
+    },
+    {
+      "property": "accent_color",
+      "value": "#FF5370"
+    },
+    {
+      "property": "text_color",
+      "value": "#FFFFFF"
+    }
+  ],
+  "visual_elements": [
+    {
+      "element_type": "shape",
+      "content": "stylized black hole with accretion disk",
+      "position": "center",
+      "style": [
+        {
+          "property": "scale",
+          "value": 1.0
+        },
+        {
+          "property": "opacity",
+          "value": 1
+        }
+      ],
+      "start_time": 0.2,
+      "end_time": 7.3
+    },
+    {
+      "element_type": "text",
+      "content": "Theoretical Foundation",
+      "position": "top",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 28
+        },
+        {
+          "property": "fill",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        }
+      ],
+      "start_time": 2.92,
+      "end_time": 7.3
+    },
+    {
+      "element_type": "text",
+      "content": "1915 Albert Einstein",
+      "position": "left",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 24
+        },
+        {
+          "property": "fill",
+          "value": "#FFFFFF"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 7.46,
+      "end_time": 14.3
+    },
+    {
+      "element_type": "shape",
+      "content": "portrait image of Einstein (vector, simple)",
+      "position": "left",
+      "style": [
+        {
+          "property": "scale",
+          "value": 0
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 8.4,
+      "end_time": 14.3
+    },
+    {
+      "element_type": "shape",
+      "content": "grid-like mesh representing spacetime (horizontal and vertical lines, forming a grid surface)",
+      "position": "center",
+      "style": [
+        {
+          "property": "stroke",
+          "value": "#11B5E4"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        },
+        {
+          "property": "scale",
+          "value": 1.0
+        }
+      ],
+      "start_time": 14.34,
+      "end_time": 22.3
+    },
+    {
+      "element_type": "shape",
+      "content": "large yellow sphere distorting the grid (sun-like mass curves the spacetime mesh)",
+      "position": "center",
+      "style": [
+        {
+          "property": "fill",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        },
+        {
+          "property": "scale",
+          "value": 0.8
+        }
+      ],
+      "start_time": 17.96,
+      "end_time": 22.3
+    },
+    {
+      "element_type": "text",
+      "content": "Mass and Energy",
+      "position": "bottom",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 26
+        },
+        {
+          "property": "fill",
+          "value": "#FF5370"
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 25.34,
+      "end_time": 29.4
+    },
+    {
+      "element_type": "formula",
+      "content": "Einstein's field equations (stylized tensor notation)",
+      "position": "center-right",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 22
+        },
+        {
+          "property": "fill",
+          "value": "#11B5E4"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 22.42,
+      "end_time": 38.0
+    },
+    {
+      "element_type": "text",
+      "content": "Karl Schwarzschild",
+      "position": "right",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 24
+        },
+        {
+          "property": "fill",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 34.0,
+      "end_time": 38.0
+    },
+    {
+      "element_type": "shape",
+      "content": "portrait image of Karl Schwarzschild (vector, simple)",
+      "position": "right",
+      "style": [
+        {
+          "property": "scale",
+          "value": 0
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 34.44,
+      "end_time": 38.0
+    },
+    {
+      "element_type": "shape",
+      "content": "dense, shrinking sphere causing extreme spacetime curvature\u2014depicts black hole formation as a sinking well in the grid",
+      "position": "center",
+      "style": [
+        {
+          "property": "fill",
+          "value": "#F8E81C"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 40.36,
+      "end_time": 54.7
+    },
+    {
+      "element_type": "text",
+      "content": "Nothing can escape",
+      "position": "top",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 28
+        },
+        {
+          "property": "fill",
+          "value": "#FF5370"
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 51.26,
+      "end_time": 54.7
+    },
+    {
+      "element_type": "text",
+      "content": "Black Holes",
+      "position": "center",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 34
+        },
+        {
+          "property": "fill",
+          "value": "#11B5E4"
+        },
+        {
+          "property": "fontWeight",
+          "value": 700
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 58.3,
+      "end_time": 60.2
+    },
+    {
+      "element_type": "text",
+      "content": "How do black holes form in our universe?",
+      "position": "bottom",
+      "style": [
+        {
+          "property": "fontSize",
+          "value": 22
+        },
+        {
+          "property": "fill",
+          "value": "#FFFFFF"
+        },
+        {
+          "property": "opacity",
+          "value": 0
+        }
+      ],
+      "start_time": 62.18,
+      "end_time": 65.0
+    }
+  ],
+  "animations": [
+    {
+      "target_element": 0,
+      "description": "subtly pulse black hole shape to draw attention at the start",
+      "start_time": 0.2,
+      "duration": 1.5,
+      "property": "scale",
+      "start_value": 1.0,
+      "end_value": 1.15
+    },
+    {
+      "target_element": 1,
+      "description": "fade in text for 'Theoretical Foundation' as phrase is emphasized",
+      "start_time": 2.92,
+      "duration": 0.7,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 1,
+      "description": "highlight 'Theoretical Foundation' with glow",
+      "start_time": 3.54,
+      "duration": 0.4,
+      "property": "filter",
+      "start_value": "",
+      "end_value": "glow"
+    },
+    {
+      "target_element": 1,
+      "description": "fade out 'Theoretical Foundation' text after pause",
+      "start_time": 7.1,
+      "duration": 0.2,
+      "property": "opacity",
+      "start_value": 1,
+      "end_value": 0
+    },
+    {
+      "target_element": 2,
+      "description": "fade in text '1915 Albert Einstein'",
+      "start_time": 7.46,
+      "duration": 0.5,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 3,
+      "description": "scale and fade in Einstein portrait as narration says his name",
+      "start_time": 8.4,
+      "duration": 0.6,
+      "property": "scale",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 3,
+      "description": "increase opacity of Einstein portrait",
+      "start_time": 8.4,
+      "duration": 0.6,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 4,
+      "description": "fade in spacetime grid mesh as Newtonian view is contrasted",
+      "start_time": 14.34,
+      "duration": 0.5,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 0.8
+    },
+    {
+      "target_element": 5,
+      "description": "scale and fade in yellow sphere onto grid mesh to show mass curving spacetime",
+      "start_time": 17.96,
+      "duration": 0.7,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 5,
+      "description": "animate mesh distortion as sphere appears, causing a dip in the grid",
+      "start_time": 18.0,
+      "duration": 1.0,
+      "property": "meshDistortion",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 6,
+      "description": "fade in 'Mass and Energy' text as emphasized",
+      "start_time": 25.34,
+      "duration": 0.4,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 7,
+      "description": "fade in Einstein's field equations formula",
+      "start_time": 22.42,
+      "duration": 0.8,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 8,
+      "description": "fade in 'Karl Schwarzschild' text as name is spoken",
+      "start_time": 34.0,
+      "duration": 0.5,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 9,
+      "description": "scale and fade in Schwarzschild portrait",
+      "start_time": 34.44,
+      "duration": 0.5,
+      "property": "scale",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 9,
+      "description": "increase opacity of Schwarzschild portrait",
+      "start_time": 34.44,
+      "duration": 0.5,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 10,
+      "description": "fade in dense sphere as black hole, mesh curves extremely",
+      "start_time": 40.36,
+      "duration": 0.6,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 10,
+      "description": "animate sphere shrinking and mesh dipping deeper, signifying event horizon",
+      "start_time": 44.24,
+      "duration": 2.3,
+      "property": "meshDistortion",
+      "start_value": 1,
+      "end_value": 4
+    },
+    {
+      "target_element": 11,
+      "description": "fade in 'Nothing can escape' text as emphasized phrase is spoken",
+      "start_time": 51.26,
+      "duration": 0.4,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 12,
+      "description": "fade in 'Black Holes' text as phrase is emphasized",
+      "start_time": 58.3,
+      "duration": 0.5,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    },
+    {
+      "target_element": 13,
+      "description": "fade in text for next segment teaser at bottom",
+      "start_time": 62.18,
+      "duration": 0.7,
+      "property": "opacity",
+      "start_value": 0,
+      "end_value": 1
+    }
+  ]
+}
